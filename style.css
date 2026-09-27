@@ -202,11 +202,14 @@ section {
 
 /* 2. About Section */
 .about {
+    background: var(--second-bg-color);
+}
+
+.about-content-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 64px;
-    background: var(--second-bg-color);
 }
 
 .about-content h3 {
@@ -217,6 +220,17 @@ section {
     font-size: 16px;
     margin: 24px 0 32px;
     line-height: 1.6;
+}
+
+.about .heading {
+    display: block;
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 48px;
+}
+
+.about .heading span {
+    color: var(--main-color);
 }
 
 /* 3. Skills Section */
